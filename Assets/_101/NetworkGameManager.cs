@@ -9,7 +9,7 @@ using Photon.Realtime;
 public class NetworkGameManager : MonoBehaviourPunCallbacks // Photon Realtime 用のクラスを継承する
 {
     /// <summary>プレイヤーのプレハブ</summary>
-    [SerializeField] string m_playerPrefabName = "Prefab";
+    [SerializeField] string m_playerPrefabName = "Player";
     [SerializeField] Transform m_spawnPoint01;
     [SerializeField] Transform m_spawnPoint02;
 
